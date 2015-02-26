@@ -2,13 +2,6 @@
 // TYPOGRAPHY
 ////////////////////////////////////////////////
 
-@font-face
-	font-family: 'jaapokki'
-	src: url('../../assets/fonts/jaapokki/jaapokkisubtract-regular.eot?7mgvkq')
-	src: url('../../assets/fonts/jaapokki/jaapokkisubtract-regular.eot?#iefix7mgvkq') format('embedded-opentype'), url('../../assets/fonts/jaapokki/jaapokkisubtract-regular.woff?7mgvkq') format('woff'), url('../../assets/fonts/jaapokki/jaapokkisubtract-regular.ttf?7mgvkq') format('truetype'), url('../../assets/fonts/jaapokki/jaapokkisubtract-regular.svg?7mgvkq#icomoon') format('svg')
-	font-weight: normal
-	font-style: normal
-
 // fonts
 ////////////////////////////////////////////////
 
@@ -18,8 +11,8 @@
 =open-sans
 	font-family: 'Open Sans', sans-serif
 
-=jaapokki
-	font-family: 'jaapokki', sans-serif
+=gentium
+	font-family: 'Gentium Basic', serif
 
 
 // headings
@@ -33,13 +26,38 @@ h5,
 h6
 	margin-top: 0
 	margin-bottom: 12px
-
-h3
-	+font-size(18px)
-	color: #34495e
+	+open-sans
+	-webkit-font-smoothing: antialiased
+	-moz-osx-font-smoothing: grayscale
+	color: #444
+	text-transform: uppercase
 
 // p
 p
 	margin: 0 0 12px 0
-	+font-size(14px)
-	color: #95a5a6
+	font-size: 18px
+	line-height: 27px
+	color: #777
+	+gentium
+
+p,
+li,
+span,
+pre
+	-webkit-font-smoothing: antialiased
+	-moz-osx-font-smoothing: grayscale
+
+ul,
+li
+	font-size: 18px
+	line-height: 27px
+	color: #777
+	+gentium
+	text-align: left
+
+a
+	color: #777
+	+transition(color .4s ease-in-out)
+
+	+hover
+		color: #333
