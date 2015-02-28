@@ -122,7 +122,6 @@ a:hover, a:active, a:focus {
 .fa.social {
   font-size: 28px;
   line-height: 38px;
-  color: #3498db;
 }
 
 .social-link {
@@ -364,9 +363,8 @@ hr {
 .box.bg h3 {
   color: #fff;
 }
-.box.bg p,
-.box.bg li {
-  color: #ecf0f1 !important;
+.box.bg p {
+  color: #fff !important;
 }
 
 .work-item {
