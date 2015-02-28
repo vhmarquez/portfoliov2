@@ -3497,7 +3497,14 @@ hr {
 }
 
 .contact-info {
+  display: block;
+  position: relative;
   font-family: "Open Sans", sans-serif;
   margin-right: 12px;
   color: #777;
+}
+@media screen and (min-width: 841px) {
+  .contact-info {
+    display: inline;
+  }
 }
