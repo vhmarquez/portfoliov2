@@ -43,7 +43,10 @@ ul.floated:after {
 }
 
 .grid-item-full {
+  position: relative;
+  width: 100%;
   padding-left: 0 !important;
+  float: left;
 }
 
 .center {
@@ -120,6 +123,20 @@ a:hover, a:active, a:focus {
   font-size: 28px;
   line-height: 38px;
   color: #3498db;
+}
+
+.social-link {
+  position: relative;
+  display: block;
+  color: #3498db;
+  text-decoration: none;
+  -moz-transition: color 0.4s ease-in-out;
+  -o-transition: color 0.4s ease-in-out;
+  -webkit-transition: color 0.4s ease-in-out;
+  transition: color 0.4s ease-in-out;
+}
+.social-link:hover, .social-link:active, .social-link:focus {
+  color: #777;
 }
 
 @-moz-keyframes hover-expand {
