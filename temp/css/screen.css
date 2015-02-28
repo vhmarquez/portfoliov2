@@ -116,6 +116,12 @@ a:hover, a:active, a:focus {
   color: #333;
 }
 
+.fa.social {
+  font-size: 18px;
+  line-height: 28px;
+  color: #3498db;
+}
+
 @-moz-keyframes hover-expand {
   0% {
     -moz-transform: scale(1);
