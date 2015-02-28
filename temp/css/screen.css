@@ -415,6 +415,10 @@ hr {
   width: 75%;
 }
 
+.one-fourth {
+  width: 25%;
+}
+
 .header {
   display: block;
   position: relative;
