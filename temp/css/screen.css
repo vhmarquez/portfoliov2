@@ -492,3 +492,8 @@ hr {
   text-align: center;
   background: #3498db;
 }
+.footer p {
+  margin-bottom: 0;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
