@@ -42,7 +42,7 @@ ul.floated:after {
   width: 100%;
 }
 
-.grid-item--full {
+.grid-item-full {
   padding-left: 0 !important;
 }
 
@@ -117,8 +117,8 @@ a:hover, a:active, a:focus {
 }
 
 .fa.social {
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 28px;
+  line-height: 38px;
   color: #3498db;
 }
 
