@@ -6,8 +6,7 @@ var	gulp = require('gulp'),
 	watch = require('gulp-watch'),
 	rename = require('gulp-rename'),
 	compass = require('gulp-compass'),
-	minifyCSS = require('gulp-minify-css'),
-	uglify = require('gulp-uglify');
+	minifyCSS = require('gulp-minify-css');
 
 // Default gulp tasks
 gulp.task('default', function() {
@@ -25,14 +24,6 @@ gulp.task('compass', function() {
 		.pipe(rename({suffix: '.min'}))
 		.pipe(minifyCSS())
 		.pipe(gulp.dest('architecture/css'));
-});
-
-// Uglify JS
-gulp.task('compress', function(){
-	gulp.src('temp/js/**/*.js')
-		.pipe(uglify())
-		.pipe(rename({suffix: '.min'}))
-		.pipe(gulp.dest('architecture/js'));
 });
 
 // Minify all CSS

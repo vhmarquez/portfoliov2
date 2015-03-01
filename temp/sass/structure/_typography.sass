@@ -20,6 +20,9 @@
 .center
 	text-align: center
 
+.left
+	text-align: left
+
 // headings
 ////////////////////////////////////////////////
 
@@ -52,6 +55,19 @@ pre
 	-webkit-font-smoothing: antialiased
 	-moz-osx-font-smoothing: grayscale
 
+// anchors
+////////////////////////////////////////////////
+
+a
+	color: #777
+	+transition(color .4s ease-in-out)
+
+	+hover
+		color: #333
+
+// listings
+////////////////////////////////////////////////
+
 ul
 	margin-bottom: 0
 
@@ -74,14 +90,8 @@ ul.floated
 		border: 3px solid #777
 		margin: 0 6px 6px 0
 
-a
-	color: #777
-	+transition(color .4s ease-in-out)
-
-	+hover
-		color: #333
-
 // icons
+////////////////////////////////////////////////
 
 .fa.social
 	font-size: 28px

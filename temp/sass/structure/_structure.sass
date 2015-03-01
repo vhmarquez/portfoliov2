@@ -13,19 +13,10 @@ body
 	+open-sans
 	-webkit-overflow-scrolling: touch
 
-hr
-	display: block
-	position: relative
-	height: 3px
-	width: 100%
-	max-width: 760px
-	background: #444
-	margin: 0 auto 24px 0
-	padding: 0
-	border: 0
 
+// main container
+////////////////////////////////////////////////
 
-// MAIN
 .main
 	display: block
 	position: relative
@@ -33,57 +24,8 @@ hr
 	max-width: 1024px
 	margin: 0 auto
 
-.banner
-	max-width: 500px
-	border: 0 !important
-	margin: 0 auto 60px auto !important
-	text-align: center
-
-.box
-	position: relative
-	display: block
-	padding: 24px
-	width: 100%
-	margin-bottom: 24px
-	text-align: left
-
-	&.medium
-		max-width: 500px
-		margin: 0 auto 24px
-
-	&.solid
-		border: 6px solid #f9f9f9
-
-	&.border
-		border-top: 3px solid #3498db
-
-	&.bg
-		background: #3498db
-
-		h2,
-		h3
-			color: #fff
-
-		p
-			color: #fff !important
-
-.work-item
-	@extend .grid
-	padding: 12px 0
-
-	a
-		position: relative
-		display: block
-		margin-bottom: 12px
-		color: #3498db
-		text-decoration: none
-		+transition(color .4s ease-in-out)
-
-		+hover
-			color: #777
-
-	p
-		margin-bottom: 0
+// widths
+////////////////////////////////////////////////
 
 .one-whole
 	width: 100%
