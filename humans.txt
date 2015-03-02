@@ -6,11 +6,6 @@
     <name> -- <role> -- <twitter>
     victor marquez -- developer -- @victormarquez
 
-# THANKS
-
-    <name>
-
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
-    jQuery
+    HTML5, CSS3, JS
