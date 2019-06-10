@@ -15,7 +15,7 @@ gulp.task('default', function() {
 
 // Compile SASS and Minify CSS
 gulp.task('compass', function() {
-	gulp.src('temp/sass/**/*.sass')
+	return gulp.src('temp/sass/**/*.sass')
 		.pipe(compass({
 			css: 'temp/css',
 			sass: 'temp/sass'
@@ -28,7 +28,7 @@ gulp.task('compass', function() {
 
 // Minify all CSS
 gulp.task('minify-css', function(){
-	gulp.src('temp/css/*.css')
+	return gulp.src('temp/css/*.css')
 		.pipe(rename({suffix: '.min'}))
 		.pipe(minifyCSS())
 		.pipe(gulp.dest('architecture/css'));

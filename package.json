@@ -1,0 +1,13 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "dependencies": {
+    "gulp": "*",
+    "gulp-cli": "*",
+    "gulp-watch": "*",
+    "gulp-rename": "*",
+    "gulp-compass": "*",
+    "gulp-minify-css": "*",
+    "gulp-uglify": "*"
+  }
+}
